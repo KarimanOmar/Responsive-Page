@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+.end {
+  text-align: end;
+}
+
+.col-12 {
+  width: 8.3333333333%;
+}
+
+.col-12 {
+  width: 16.6666666667%;
+}
+
+.col-12 {
+  width: 25%;
+}
+
+.col-12 {
+  width: 33.3333333333%;
+}
+
+.col-12 {
+  width: 41.6666666667%;
+}
+
+.col-12 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 58.3333333333%;
+}
+
+.col-12 {
+  width: 66.6666666667%;
+}
+
+.col-12 {
+  width: 75%;
+}
+
+.col-12 {
+  width: 83.3333333333%;
+}
+
+.col-12 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 750px) {
+  .row {
+    flex-direction: column;
+  }
+  .row [class*=col-] {
+    width: 100%;
+  }
+  .end {
+    padding-top: 2%;
+    text-align: center;
+  }
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  font-size: 125%;
+  display: inline-block;
+  padding: 1%;
+}
+
+#section1 {
+  color: white;
+  background-color: black;
+}
+#section1 div p {
+  padding: 2%;
+  font-size: 175%;
+}
+#section1 div h1 {
+  font-size: 300%;
+  font-weight: 500;
+}
+#section1 div button {
+  font-size: 187.5%;
+  border: 0;
+  color: white;
+  background-color: #616161;
+  margin: 3%;
+  font-weight: bold;
+  padding: 1%;
+}
+
+#section2 {
+  background-color: #f1f1f1;
+  padding: 5% 2.5%;
+}
+#section2 img {
+  width: 80%;
+  height: auto;
+}
+#section2 div {
+  flex: 1 0;
+}
+#section2 div #p1 {
+  font-size: 187.5%;
+  padding-bottom: 5%;
+}
+#section2 div #p2 {
+  font-size: 125%;
+  padding-bottom: 5%;
+}
+#section2 div button {
+  background-color: black;
+  border: 0;
+  font-size: 112.5%;
+  padding: 2%;
+  color: white;
+}
+
+.section-center {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: 1px solid rgb(216, 214, 214);
+  border-bottom: 1px solid rgb(216, 214, 214);
+}
+
+#header:nth-child(1) {
+  background-color: #607d8b;
+  font-size: 200%;
+  color: white;
+  padding: 1%;
+}
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#contant {
+  padding: 1%;
+}
+#contant .contantP1 {
+  font-size: 200%;
+  padding: 0.5%;
+}
+#contant .contantP2 {
+  font-size: 112.5%;
+  padding: 0.5%;
+}
+
+#footer {
+  background-color: #607d8b;
+  font-size: 200%;
+  color: white;
+  padding: 1%;
+  font-size: 112.5%;
+}
+#footer p:nth-child(1) {
+  padding-bottom: 1%;
+}
+#footer p:nth-child(2) {
+  font-size: 87.5%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#title-section3 {
+  font-size: 200%;
+}
+
+.section3 {
+  flex: 1;
+  padding: 1%;
+}
+
+.card, .card--blue {
+  box-shadow: 2px 3px 28px rgb(226, 226, 226);
+}
+.card ul, .card--blue ul {
+  list-style-type: none;
+}
+.card li, .card--blue li {
+  border-bottom: 1px solid gray;
+}
+.card li p, .card--blue li p {
+  padding: 2%;
+}
+.card li p:nth-child(1), .card--blue li p:nth-child(1) {
+  font-size: 125%;
+  padding-bottom: 0;
+}
+.card li p:nth-child(2), .card--blue li p:nth-child(2) {
+  font-size: 87.5%;
+}
+.card .card__item1, .card--blue .card__item1 {
+  color: #3f51b5;
+  padding-bottom: 2%;
+}
+.card .card__body, .card--blue .card__body {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.card .card__heder p, .card .card__footer p, .card--blue .card__heder p, .card--blue .card__footer p {
+  background-color: #3f51b5;
+  font-size: 125%;
+  padding: 2%;
+  color: white;
+}
+.card .card__footer p, .card--blue .card__footer p {
+  font-size: 112.5%;
+  padding: 0.5% 2%;
+}
+
+.card--dark .card__heder p, .card--dark .card__footer p {
+  background-color: black;
+}
+.card--dark .card__item1 {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
